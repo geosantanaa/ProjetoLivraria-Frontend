@@ -1,0 +1,206 @@
+body {
+  background-color: #212121;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.book-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.book-list h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.books-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #424242;
+  border-radius: 4px;
+}
+
+.book-image {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.book-item span {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f4511e;
+}
+
+.side-content {
+  width: 300px;
+  background-color: #7c7a7a;
+  padding: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.side-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.side-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cart {
+  background-color: #424242;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 20px; 
+
+}
+
+.cart-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cart-empty {
+  font-style: italic;
+}
+
+.cart-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cart-item-title {
+  flex-grow: 1;
+}
+
+.cart-item-price {
+  margin-right: 10px;
+}
+
+.cart-item-remove {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.forum-screen {
+  margin-top: 20px;
+}
+
+.forum-post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.forum-post h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.forum-post p {
+  margin-bottom: 5px;
+}
+
+.message-box {
+  margin-top: 20px;
+}
+
+.message-box h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.message-box form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.message-box input,
+.message-box textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.message-box button {
+  padding: 10px;
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.message-box button:hover {
+  background-color: #006400;
+}
+
+.forum-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+
+
+.forum-post {
+  margin-bottom: 20px;
+}
+
+.forum-post button {
+  margin-right: 10px;
+}
+
+.confirm-delete {
+  margin-top: 10px;
+}
+
+.confirm-delete button {
+  margin-right: 10px;
+}
+
+
+
